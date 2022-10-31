@@ -3,7 +3,8 @@ package hm6.zoo;
 public class Cat extends Animal{
     private String color;
 
-    public Cat(String color) {
+    public Cat(boolean vegetarian, String eats, int noOfLegs) {
+        super(vegetarian, eats, noOfLegs);
         this.color = "ginger";
     }
 
